@@ -39,5 +39,6 @@ public class Task6 {
         System.out.println("Circle area: " + circle.area());
 
         Rectangle rectangle = new Rectangle(4,6);
+        System.out.println("Rectangle area: " + rectangle.area());
     }    
 }
