@@ -19,10 +19,10 @@ public class Task8 {
     public static void main(String[] args) {
         GCD gcdCalculator = new GCD();
 
-        int gcd1 = gcdCalculator.calculateGCD(24, 36);
+        int gcd1 = gcdCalculator.calculateGCD(10, 2);
         System.out.println("GCD of 24 and 36: " + gcd1);
 
-        int gcd2 = gcdCalculator.calculateGCD(36, 48, 60);
+        int gcd2 = gcdCalculator.calculateGCD(10, 2, 6);
         System.out.println("GCD of 36, 48, and 60: " + gcd2);
     }
 }
