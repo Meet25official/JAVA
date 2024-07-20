@@ -2,20 +2,35 @@
 // In a game development scenario, have a class called "Game" with an instance initializer block that sets up the game environment, loads resources, and performs initialization tasks when a new game object is created.
 
 class Game {
-    private String environment; 
-    private double loadsresources, performs;
+    private String environment;
+    private String resources;
     {
-        environment = "xyz";
-        loadsresources = 10;
-        performs = 5;
+        setupEnvironment();
+        loadResources();
+        initializeGame();
     }
-    public String initialization(String environment, double loadsresources, double performs){
-        return "Game Initialization{ environment: " + environment +  "loadsresources: " + loadsresources + "performs: " + performs + "}";
+
+    public Game() {
+        System.out.println("Game constructor called.");
+    }
+
+    private void setupEnvironment() {
+        environment = "Default Environment";
+        System.out.println("Game environment set up: " + environment);
+    }
+
+    private void loadResources() {
+        resources = "Default Resources";
+        System.out.println("Game resources loaded: " + resources);
+    }
+
+    private void initializeGame() {
+        System.out.println("Performing additional initialization tasks...");
     }
 }
 public class Task2 {
     public static void main(String[] args) {
-         Game g = new Game();
-         System.out.println(g.initialization("abc",20,10));
+        Game game = new Game();
+        System.out.println(game);
     }
 }
