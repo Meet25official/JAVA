@@ -28,7 +28,7 @@ class SavingsAccount extends Account {
 }
 
 class CurrentAccount extends Account {
-    private double overdraftLimit;
+    protected double overdraftLimit;
 
     public CurrentAccount(double balance, double overdraftLimit) {
         super(balance);
