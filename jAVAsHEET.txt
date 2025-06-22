@@ -1,0 +1,114 @@
+Inheritance:
+Scenario 10: Restaurant Menu
+Create a restaurant menu system with a base class called "MenuItem" and derived classes like "Appetizer," "MainCourse," and "Dessert." Each derived class can have specific attributes like ingredients and methods related to that type of menu item.
+
+Scenario 11: Library Management System
+Design a library management system where you have classes like "Library," "Book," and "Member." Implement methods for borrowing, returning, and searching for books.
+
+Scenario 12: Social Media Platform
+Create a social media platform with classes like "User," "Post," and "Comment." Implement methods for users to create posts, comment on posts, and interact with each other.
+
+Scenario 13: Online Ticket Booking System
+Develop an online ticket booking system with classes like "Ticket," "Event," and "User." Implement methods for users to book tickets, view event details, and manage their bookings.
+
+Scenario 14: Restaurant Ordering System
+Design a restaurant ordering system with classes like "Menu," "Order," and "Table." Implement methods for users to view the menu, place orders, and manage tables.
+
+Scenario 15: Student Management System
+Create a student management system with classes like "Student," "Course," and "Enrollment." Implement methods for adding students, enrolling them in courses, and calculating their grades.
+
+Scenario 16: Bank Transaction System
+Develop a bank transaction system with classes like "Account," "Transaction," and "Customer." Implement methods for customers to make deposits, withdrawals, and view their account balances.
+
+Scenario 17: Flight Reservation System
+Design a flight reservation system with classes like "Flight," "Passenger," and "Reservation." Implement methods for passengers to search for flights, book tickets, and manage their reservations.
+
+Scenario 18: Online Marketplace
+Create an online marketplace system with classes like "Product," "Seller," and "Buyer." Implement methods for sellers to list products, buyers to search for and purchase products, and manage transactions.
+
+Scenario 19: Music Streaming Service
+Develop a music streaming service with classes like "Song," "Playlist," and "User." Implement methods for users to search for songs, create playlists, and listen to music.
+
+Scenario 20: Car Rental System
+Design a car rental system with classes like "Car," "RentalAgency," and "Customer." Implement methods for customers to search for available cars, make reservations, and manage their rentals.
+
+Aggregation:       ok
+-------------------------------------------------------------------------------------------------------------
+Polymorphism:     
+
+Set 1:        ok
+
+Method Overloading:    ok
+
+Method Overriding:     ok
+
+Covariant Return Type:     ok
+
+super keyword:            ok
+
+Instance Initializer block:   ok
+
+final keyword:         ok
+
+Runtime Polymorphism / Dynamic Binding:   ok
+
+instanceof operator:   ok
+-------------------------------------------------------------------------------
+Set 2:          ok
+
+Method Overloading:       ok
+
+Method Overriding:         ok
+
+Covariant Return Type:        ok
+
+super keyword:        ok
+
+Instance Initializer block:     ok
+
+final keyword:       ok
+
+Runtime Polymorphism / Dynamic Binding:      ok
+
+instanceof operator:        ok
+----------------------------------------------------------------------------------------------
+Abstraction: 
+
+Abstract Class:            ok
+
+Interface:        ok
+
+Encapsulation: 
+
+Package:
+
+
+Scenario 3: Hospital Management System
+Develop a package called "hospital" that contains classes like "Doctor," "Patient," and "Appointment" that handle various aspects of managing a hospital. Place these classes in the "hospital" package to provide organization and separation from other modules.
+
+Scenario 4: Game Development
+Create a package called "game" that includes classes like "Player," "Enemy," and "Level" that are used in a game development project. Place these classes in the "game" package to maintain a logical grouping of game-related components.
+
+
+Access Modifiers:               ok
+
+Encapsulation:
+
+Scenario 5: Customer Relationship Management (CRM) System
+In a CRM system, encapsulate the customer data and methods for managing customer interactions to ensure data integrity, privacy, and controlled access to customer information.
+
+Array: 
+Scenario 5: Inventory Management
+In an inventory management system, create an array to store the quantities of different products in stock. Perform operations such as updating stock levels, searching for products based on certain criteria, and generating an inventory report.
+
+Scenario 6: Student Enrollment
+In a university enrollment system, create an array to store the courses in which students are enrolled. Perform operations such as adding or dropping courses, checking the number of enrolled students in each course, and generating enrollment reports.
+
+Scenario 7: Product Ratings
+In an e-commerce platform, create an array to store the ratings given by users for different products. Perform operations such as calculating the average rating for a product, identifying highly rated products, and allowing users to submit their ratings.
+
+Scenario 8: Stock Portfolio Management
+In a stock portfolio management system, create an array to store the number of shares and prices of different stocks in a portfolio. Perform operations such as calculating the total portfolio value, identifying the best-performing stocks, and generating performance reports.
+
+Scenario 9: Event RSVPs
+In an event management system, create an array to store the RSVP status of attendees for an event. Perform operations such as counting the number of confirmed attendees, generating a guest list, and checking the availability of seats.
